@@ -5,8 +5,6 @@
 void dijkstra(int graph[MAX][MAX], int n, int src) {
     int cost[MAX][MAX], dist[MAX], pred[MAX], visited[MAX];
     int i, j;
-
-    // 0 means "no edge" (except on the diagonal)
     for (i = 0; i < n; i++)
         for (j = 0; j < n; j++)
             cost[i][j] = (graph[i][j] == 0 && i != j) ? INF : graph[i][j];
@@ -29,7 +27,7 @@ void dijkstra(int graph[MAX][MAX], int n, int src) {
             }
         }
 
-        if (next == -1) break;   // remaining nodes are unreachable
+        if (next == -1) break;   
         visited[next] = 1;
 
         for (i = 0; i < n; i++) {
