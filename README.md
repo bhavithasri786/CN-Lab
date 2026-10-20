@@ -14,10 +14,10 @@ This repository contains C programs implemented as part of the **Computer Networ
 - Frame Sorting
 - Encryption and Decryption
 
-Language
+**Language**
 - C
 
-Purpose
+**Purpose :**
 To implement and understand data link layer protocols, error detection, routing algorithms, and basic networking techniques through practical experiments.
 
 **Course:** Computer Networks Lab  
