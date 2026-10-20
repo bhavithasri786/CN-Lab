@@ -1,8 +1,8 @@
-**Computer Networks Lab**
+##**Computer Networks Lab**
 
 This repository contains C programs implemented as part of the **Computer Networks (CN) Lab** to understand and demonstrate fundamental networking concepts and protocols.
 
-**Experiments**
+##**Experiments**
 - Sliding Window Protocol
 - Bit Stuffing and Bit Destuffing
 - Character Stuffing and Character Destuffing
